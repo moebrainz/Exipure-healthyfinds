@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+.text-md {
+    font-size: 0.9rem;
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}
+
+.text-links:hover {
+    color: red;
+    transition: color 0.3s ease;
+}
+
+a {
+    word-wrap: break-word;
+}
+
+.logo {
+    height: 2.2rem;
+}
+
+.text-primary-dark {
+    color: rgb(34, 80, 159);
+}
+
+.avatar {
+    height: 4rem;
+    width: 4rem;
+}
+
+.btn-primary {
+    animation: scale 1.2s ease infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+        background-color: rgb(66, 114, 196);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.icon {
+    height: 1.6rem;
+}
+
+.avatar {
+    height: 3rem;
+    width: 3rem;
+}
+
+.bg-info-light {
+    background-color: rgb(235, 243, 245);
+}
+
+p a:link,
+p a:visited {
+    color: rgb(27, 27, 255);
+    transition: color 200ms ease;
+}
+
+p a:hover,
+p a:active {
+    color: red;
+}
